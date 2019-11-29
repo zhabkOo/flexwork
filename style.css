@@ -103,7 +103,11 @@ hr {
 
 #beetweenhr {
   display: flex;
-  margin-top: -40px;
+}
+
+#commentscounter {
+  margin-top: -15px;
+  color: #6a737c;
 }
 
 #comments {
