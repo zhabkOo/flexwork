@@ -1,4 +1,4 @@
-/*#### RESET CSS ####*/
+/*CSS RESET*/
 * {
   margin: 0;
   padding: 0;
@@ -9,18 +9,15 @@
   text-decoration: none;
 }
 
-/*#### MAIN ####*/
 * {
   font-size: 13px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-
 #leftcolumn,
 .rating {
   font-size: 21px;
   color: #6a737c;
 }
-
 .rating:before {
   content: url(up.svg);
   cursor: pointer;
@@ -29,13 +26,11 @@
   content: url(down.svg);
   cursor: pointer;
 }
-
 #rightcontent {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
 }
-
 #contentwrap {
   width: 100vw;
   height: 100vh;
@@ -43,73 +38,58 @@
   align-items: center;
   justify-content: center;
 }
-
 #contentbox {
   display: flex;
   width: 727px;
   height: 336px;
   background: lightblue;
 }
-
 #textmessage {
   font-size: 15px;
 }
-
 #graybground,
 .param,
 .attribute,
-pre {
+.codefonts {
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono,
     DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
     sans-serif;
 }
-
 .graylink {
   color: #6a737c;
 }
-
 .bluelink {
   color: #0077cc;
 }
-
 #graybground {
-  width: 100wh;
   padding: 5px;
   background-color: #eff0f1;
 }
-
 pre {
   line-height: 15px;
 }
-
 .param {
   color: #101094;
 }
-
 .attribute {
   color: #7d2727;
 }
-
 #dateinform {
   display: flex;
   justify-content: space-between;
   padding-right: 100px;
 }
-
 hr {
   border-style: inset;
   border-width: 1px;
 }
-
 #beetweenhr {
   display: flex;
 }
-
 #commentscounter {
   margin-top: -15px;
   color: #6a737c;
 }
-
 #comments {
   margin: -15px 5px -15px 30px;
 }
